@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel o Tijera</h1>
+        <div class="choices">
+            <button class="choice" data-choice="rock">✊ Piedra</button>
+            <button class="choice" data-choice="paper">✋ Papel</button>
+            <button class="choice" data-choice="scissors">✌️ Tijera</button>
+        </div>
+        <div class="animation">
+            <div id="player-choice" class="choice-display"></div>
+            <div id="computer-choice" class="choice-display"></div>
+        </div>
+        <div class="result-display">
+            <h2 id="result"></h2>
+        </div>
+        <button id="restart" style="display:none;">Reiniciar</button>
+    </div>
+    <a id="back" href="/mini_juego/index.html">Regresar</a>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "Estrategia 1",
+        "titulo": "No Man’s Sky",
+        "imagen": "https://th.bing.com/th/id/R.ec70e289083bc8af09a52891210b44a0?rik=T6PU4N2Bsv11%2fQ&pid=ImgRaw&r=0",
+        "categoria": {
+            "nombre": "Estrategia",
+            "id": "Estrategia"
+        },
+        "precio": 940
+    },
+    {
+        "id": "Estrategia 2",
+        "titulo": "The Witcher 3",
+        "imagen": "https://th.bing.com/th/id/R.ef4e7bda22e32be7f903ec9575e1de32?rik=CXcAOXvSPMLyqg&pid=ImgRaw&r=0",
+        "categoria": {
+            "nombre": "Estrategia",
+            "id": "Estrategia"
+        },
+        "precio": 760
+    },
+    {
+        "id": "Estrategia 3",
+        "titulo": "Final Fantasy 7",
+        "imagen": "https://assetsio.reedpopcdn.com/co6puh.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp",
+        "categoria": {
+            "nombre": "Estrategia",
+            "id": "Estrategia"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "Estrategia 4",
+        "titulo": "Hades",
+        "imagen": "https://th.bing.com/th/id/OIP.EsLd-kOduo_MgXioGpvOogAAAA?rs=1&pid=ImgDetMain",
+        "categoria": {
+            "nombre": "Estrategia",
+            "id": "Estrategia"
+        },
+        "precio": 1220
+    },
+    {
+        "id": "Estrategia 5",
+        "titulo": "Resident Evil Village",
+        "imagen": "https://assetsio.reedpopcdn.com/co5zol.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp",
+        "categoria": {
+            "nombre": "Estrategia",
+            "id": "Estrategia"
+        },
+        "precio": 1100
+    },
+    {
+        "id": "Guerra 1",
+        "titulo": "Star Wars Jedi",
+        "imagen": "https://preview.redd.it/star-wars-jedi-survivor-will-be-a-masterpiece-most-v0-vn586yya37va1.jpg?width=640&crop=smart&auto=webp&s=b5d6c3a6f5eb7e3f2f25a72f96f7dd3c9d140319",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 1450
+    },
+    {
+        "id": "Guerra 2",
+        "titulo": "Gran Turismo 7",
+        "imagen": "https://psfanatic.com/wp-content/uploads/2020/06/Gran-Turismo-7-PS5-cover-new.jpg",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 1250
+    },
+    {
+        "id": "Guerra 3",
+        "titulo": "Returnal",
+        "imagen": "https://th.bing.com/th/id/OIP.Yp-FZqjSyRXrBQjKrvICZgHaJa?rs=1&pid=ImgDetMain",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 1100
+    },
+    {
+        "id": "Guerra 4",
+        "titulo": "Cyberpunk 2077",
+        "imagen": "https://store-images.s-microsoft.com/image/apps.47379.63407868131364914.bcaa868c-407e-42c2-baeb-48a3c9f29b54.89bb995b-b066-4a53-9fe4-0260ce07e894",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 150
+    },
+    {
+        "id": "Guerra 5",
+        "titulo": "Deathloop",
+        "imagen": "https://th.bing.com/th/id/OIP.mnUQBXnEeKHClqCV3f2KBgAAAA?rs=1&pid=ImgDetMain",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 970
+    },
+    {
+        "id": "Guerra 6",
+        "titulo": "Grand Theft Auto V",
+        "imagen": "https://oyster.ignimgs.com/wordpress/stg.ign.com/2012/11/GTAV_poster_11.jpg",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 1050
+    },
+    {
+        "id": "Guerra 7",
+        "titulo": "Horizon Forbidden West",
+        "imagen": "https://th.bing.com/th/id/OIP.R1tvIjZrAqLOAGe94K3kFwHaJ4?rs=1&pid=ImgDetMain",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 750
+    },
+    {
+        "id": "Guerra 8",
+        "titulo": "The Last of Us Part 2",
+        "imagen": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/01/the-last-of-us-part-2-remastered-game-poster.jpg",
+        "categoria": {
+            "nombre": "Guerra",
+            "id": "Guerra"
+        },
+        "precio": 2300
+    },
+    {
+        "id": "Historia 1",
+        "titulo": "Marvel’s Spider-Man 2",
+        "imagen": "https://th.bing.com/th/id/OIP.2ilkXKilYBFK2lRERZjAJgHaKe?rs=1&pid=ImgDetMain",
+        "categoria": {
+            "nombre": "Historia",
+            "id": "Historia"
+        },
+        "precio": 1350
+    },
+    {
+        "id": "Historia 2",
+        "titulo": "Elden Ring",
+        "imagen": "https://store-images.s-microsoft.com/image/apps.26403.13852397496525813.9407e38d-e2bb-465e-a76d-2309ee8fd7a1.01dd497a-eb26-4b08-9ff7-b595eb4c4d43",
+        "categoria": {
+            "nombre": "Historia",
+            "id": "Historia"
+        },
+        "precio": 756
+    },
+    {
+        "id": "Historia 3",
+        "titulo": "God of War",
+        "imagen": "https://th.bing.com/th/id/OIP.1Vtwie1hWIpQGYe8byZPIgHaJy?rs=1&pid=ImgDetMain",
+        "categoria": {
+            "nombre": "Historia",
+            "id": "Historia"
+        },
+        "precio": 1550
+    },
+    {
+        "id": "Historia 4",
+        "titulo": "Zelda",
+        "imagen": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/529356.jpg",
+        "categoria": {
+            "nombre": "Historia",
+            "id": "Historia"
+        },
+        "precio": 980
+    },
+    {
+        "id": "Historia 5",
+        "titulo": "GodFall",
+        "imagen": "https://cdn2.unrealengine.com/Diesel/productv2/godfall/home/EGS_Godfall_CounterplayGames_S2-1200x1600-0d509fe545e8759f01ba77f337fc79d8095409f2.jpg",
+        "categoria": {
+            "nombre": "Historia",
+            "id": "Historia"
+        },
+        "precio": 1500
+    }
+]

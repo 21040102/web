@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d1f21;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg, #2b2d31, #3d3f43);
+}
+
+.container {
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#back {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espacio entre el botón de regresar y el contenedor */
+    transition: background-color 0.3s;
+    position: absolute; /* Coloca el botón en la parte superior izquierda */
+    top: 20px;
+    left: 20px;
+}
+
+#back:hover {
+    background-color: #c82333;
+}
+
+.choices {
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.choice:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.animation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    opacity: 0; /* Ocultar inicialmente */
+    transition: opacity 0.5s ease;
+}
+
+.choice-display {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 5px; /* Cambiar a rectángulo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: #007BFF;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.choice-display.active {
+    transform: scale(1.2); /* Aumenta el tamaño */
+    animation: shake 0.5s ease forwards;
+    background-color: rgba(0, 123, 255, 0.3);
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.result-container {
+    margin-top: 20px; /* Espacio arriba */
+    padding: 15px; /* Espacio dentro del rectángulo */
+    border: 2px solid #007BFF; /* Borde del rectángulo */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+}
+
+.result-display {
+    margin: 0; /* Sin margen adicional */
+}
+
+#result {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#restart {
+    display: none; /* Ocultar el botón de reinicio al principio */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#restart:hover {
+    background-color: #c82333;
+}
+
+
